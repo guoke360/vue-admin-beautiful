@@ -8,6 +8,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build:report": "vue-cli-service build --report",

@@ -1,14 +1,14 @@
 <template>
   <div class="login-container">
     <el-alert
-      title="beautiful boys and girls欢迎加入vue-admin-beautifulQQ群：972435319"
+      title="纳格兰爆改款"
       type="success"
       :closable="false"
       style="position: fixed"
     ></el-alert>
     <el-row>
       <el-col :xs="24" :sm="24" :md="12" :lg="16" :xl="16">
-        <div style="color: transparent">占位符</div>
+        <div style="color: transparent">摸YUI仔</div>
       </el-col>
       <el-col :xs="24" :sm="24" :md="12" :lg="8" :xl="8">
         <el-form
@@ -18,8 +18,8 @@
           class="login-form"
           label-position="left"
         >
-          <div class="title">hello !</div>
-          <div class="title-tips">欢迎来到{{ title }}！</div>
+          <div class="title">摸鱼管理平台</div>
+          <div class="title-tips">{{ title }}！</div>
           <el-form-item style="margin-top: 40px" prop="username">
             <span class="svg-container svg-container-admin">
               <vab-icon :icon="['fas', 'user']" />
@@ -146,7 +146,7 @@
       this.form.username = 'admin'
       this.form.password = '123456'
       setTimeout(() => {
-        this.handleLogin()
+        // this.handleLogin()
       }, 3000)
     },
     methods: {
